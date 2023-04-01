@@ -1,0 +1,168 @@
+.lobo {
+  --pinguino-barriga: gray;
+  --pinguino-pico: yellow;
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 5%;
+  width: 400px;
+  height: 400px;
+}
+
+.cara {
+  top: 50%;
+  left: 60%;
+  background: grey;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+}
+
+ .rostro1 {
+  top: 23%;
+  left: 20.5%;
+  background: black;
+  width: 1%;
+  height: 35%;
+ }
+
+ .rostro2 {
+  top: 16%;
+  left: 34%;
+  background: black;
+  width: 1%;
+  height: 35%;
+  transform: rotate(-230deg);
+ }
+
+ .rostro3 {
+  top: 16%;
+  left: 60.5%;
+  background: black;
+  width: 1%;
+  height: 35%;
+  transform: rotate(230deg);
+ }
+ .rostro4 {
+  top: 23%;
+  left: 74%;
+  background: black;
+  width: 1%;
+  height: 35%;
+ }
+ .mejia-derecha {
+  top: 55%;
+  left: 64%;
+  background: white;
+  width: 24%;
+  height: 40%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(202deg);
+ }
+ .mejia-izquierda {
+  top: 55%;
+  left: 12%;
+  background: white;
+  width: 24%;
+  height: 40%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(-202deg);
+ }
+ .relleno1 {
+  top: 70%;
+  left: 21%;
+  background: white;
+  width: 58%;
+  height: 30%;
+  border-radius: 50%;
+ }
+ .relleno2 {
+  top: 22%;
+  left: 21%;
+  background: white;
+  width: 53.5%;
+  height: 30%;
+  border-radius: 0%;
+ }
+ .relleno3 {
+  top: 45%;
+  left: 21%;
+  background: white;
+  width: 53.5%;
+  height: 30%;
+  border-style:groove;
+  border-radius: 0%;
+ }
+ .relleno4 {
+  top: 5%;
+  left: 34%;
+  background: grey;
+  width: 40%;
+  height: 30%;
+  border-radius: 0% 0% 0% 50%;
+  transform: rotate(-220deg);
+ }
+ .relleno5 {
+  top: 5%;
+  left: 21.5%;
+  background: grey;
+  width: 40%;
+  height: 30%;
+  border-radius: 0% 0% 50% 0%;
+  transform: rotate(220deg);
+ }
+ .nariz {
+  top: 55%;
+  left: 12%;
+  background: black;
+  width: 10%;
+  height: 16%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(85deg);
+ }
+ .ojo-derecho {
+  top: 40%;
+  left: 25%;
+  background: black;
+  width: 10%;
+  height: 16%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(5deg);
+ }
+ .ojo-izquierdo {
+  top: 40%;
+  left: 49%;
+  background: black;
+  width: 10%;
+  height: 16%;
+  border-radius: 50% 50% 50% 50%;
+  transform: rotate(5deg);
+ }
+ .oreja-derecha {
+    top: 48%;
+    left: 99%;
+    background: grey;
+    width: 16%;
+    height: 16%;
+    border-radius: 50% 0% 50% 50%;
+    transform: rotate(-9deg);
+ }
+ .oreja-izquierda {
+  top: 45%;
+  left: 69%;
+  background: grey;
+  width: 16%;
+  height: 16%;
+  border-radius: 50% 0% 50% 50%;
+  transform: rotate(-60deg);
+}
+body {
+  background-color: aquamarine;
+}
+
+.lobo * {
+  position: absolute;
+  }
+
+
+  

@@ -1,0 +1,47 @@
+ul {
+	color: chocolate;
+
+}
+
+ol {
+	color: chocolate;
+
+}
+
+label {
+	color: violet;
+
+}
+
+h3 {
+	color: blue;
+	color: orange;
+
+}
+
+h2 {
+	font-family: 'Ephesis', cursive;
+	font-size: 50px;
+
+}
+
+h3 {
+	font-family: 'Ephesis', cursive;
+	font-size: 50px;
+
+}
+
+.bordes-redondeados {
+	border-radius: 40%;
+
+}
+
+
+
+
+p {
+	font-family: 'Ephesis', cursive;
+	font-size: 50px;
+
+}
+
